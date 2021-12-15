@@ -11,7 +11,7 @@ public class TesteReferencias {
 		Funcionario f = new Funcionario();
 		f.setSalario(2000.0);
 
-		Funcionario ev = new EditorVideo();
+		EditorVideo ev = new EditorVideo();
 		f.setSalario(2500.0);
 
 		ControleBonifacacao controle = new ControleBonifacacao();
