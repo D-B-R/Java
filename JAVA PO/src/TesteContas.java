@@ -10,7 +10,10 @@ public class TesteContas {
 	cp.deposita(200);
 	
 	
-
+	cc.transfere(10.0 , cp);
+	
+	System.out.println("cc " + cc.getSaldo());
+	System.out.println("cp " + cp.getSaldo());
 	}
 
 }
