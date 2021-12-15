@@ -6,13 +6,17 @@ public class TesteReferencias {
 		Gerente g1 = new Gerente(); // direito --> nome da classe esquerdo - referencias
 
 		g1.setNome("marcos");
-		String nome = g1.getNome();
+		g1.setSalario(5000.0);
 		
-		g1.autentica(2222); // analisando o tipo da referencia 
+		Funcionario f = new Funcionario();
+		f.setSalario(2000.0);
 		
 
-		System.out.println(nome);
+		ControleBonifacacao controle = new ControleBonifacacao();
+		controle.registra(g1);
+		controle.registra(f);
 
+		System.out.println(controle.getSoma());
 	}
 
 }
