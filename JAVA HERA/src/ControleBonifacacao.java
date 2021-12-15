@@ -10,6 +10,19 @@ public class ControleBonifacacao {
 		this.soma= this.soma + boni;
 		
 	}
+	
+	
+	public void registra(EditorVideo ev ) {
+		double boni = ev.getBonificacao();
+		this.soma= this.soma + boni;
+		
+	}
+	
+	
+	
+	
+	
+	
 	public double getSoma() {
 		return soma;
 	}
