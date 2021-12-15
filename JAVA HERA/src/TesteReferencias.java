@@ -8,15 +8,15 @@ public class TesteReferencias {
 		g1.setNome("marcos");
 		g1.setSalario(5000.0);
 
-		Funcionario f = new Funcionario();
-		f.setSalario(2000.0);
+		Funcionario d = new Designer();
+		d.setSalario(2000.0);
 
 		EditorVideo ev = new EditorVideo();
-		f.setSalario(2500.0);
+		ev.setSalario(2500.0);
 
 		ControleBonifacacao controle = new ControleBonifacacao();
 		controle.registra(g1);
-		controle.registra(f);
+		controle.registra(d);
 		controle.registra(ev);
 
 		System.out.println(controle.getSoma());
