@@ -3,12 +3,10 @@ public class Funcionario {
 
 	private String nome;
 	private String cpf;
-	private  double salario; // visivel para os filhos
-	
-	
-	
+	private double salario; // visivel para os filhos
+
 	public Funcionario() {
-			
+
 	}
 
 	public double getBonificacao() { // metodo de retorno com 10% de bnificacção do salario
