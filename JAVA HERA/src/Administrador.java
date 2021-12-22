@@ -1,5 +1,5 @@
 
-public class Gerente extends Funcionario {
+public class Administrador extends Funcionario {
 
 	private int senha;
 
@@ -16,13 +16,9 @@ public class Gerente extends Funcionario {
 		}
 	}
 
-	public Gerente() {
-
-	}
-
+	@Override
 	public double getBonificacao() {
-		System.out.println("chama gerente bonus");
-		return super.getSalario(); // chamei metodo bonificação
+		return 50;
 	}
 
 }

@@ -1,7 +1,7 @@
 
 public class Designer extends Funcionario {
 	
-	public double getBonificacao() {
+	public double getBonificacao( ) {
 		
 		System.out.println("chama designer");
 
